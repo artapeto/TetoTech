@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TetoTech</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
 
-  
+
   <section class="container"> <!--Header-->
     <header class="header">
       <img width="270" height="70" class="header__logo" src="images/logo.svg" alt="">
@@ -40,53 +40,196 @@
 
 
   <section class="container"> <!--Stocks-->
-    <section class="stocks">
+    <div class="stocks">
       <h3>Текущие акции</h3>
       <div class="stocks__imgs">
         <img width="440" height="350" src="images/stock_1.png" alt="">
         <img width="440" height="350" src="images/stock_2.png" alt="">
       </div>
+    </div>
     </section>
-  </section>
+
 
 
   <section class="container"> <!--Popular-->
-    <section class="popular">
+    <button class="btns__left"><svg width="46" height="45" viewBox="0 0 46 45" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M44.1211 22.5H2.12109M23.1211 43.5L2.12109 22.5L23.1211 1.5" stroke="#DD3F6C" stroke-width="3"
+          stroke-linecap="round" />
+      </svg>
+    </button>
+    <button class="btns__right"> <svg width="46" height="45" viewBox="0 0 46 45" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.5 22.5H43.5M22.5 43.5L43.5 22.5L22.5 1.5" stroke="#DD3F6C" stroke-width="3"
+          stroke-linecap="round" />
+      </svg>
+    </button>
+    <div class="popular">
       <h3>Популярные товары</h3>
-      <div class="swiper mySwiper">
+      <div class="swiper swiper__popular">
         <div class="swiper-wrapper">
-
-          <div class="swiper-slide"><div class="popular__card">
+          <div class="swiper-slide">
+            <div class="popular__card">
               <img width="200" height="142" src="images/Aula_f75.png " alt="">
               <h4 class="popular__card__title">AULA F75</h4>
-              <p class="popular__card__info">Клавиатура Механическая 75%</p>
+              <p class="popular__card__info">Клавиатура механическая 75%</p>
             </div>
           </div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Lamzu_maya_x.png" alt="">
+              <h4 class="popular__card__title">LAMZU Maya X</h4>
+              <p class="popular__card__info">Игровая мышь
+беспроводная 47г</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Fifine_am8.png" alt="">
+              <h4 class="popular__card__title">Fifine AM8</h4>
+              <p class="popular__card__info">Микрофон
+динамический</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Zone_51_bunny.png " alt="">
+              <h4 class="popular__card__title">ZONE 51 BUNNY</h4>
+              <p class="popular__card__info">Коврик для мыши
+полиестер</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Asus_tuf_gaming.png " alt="">
+              <h4 class="popular__card__title">ASUS TUF Gaming</h4>
+              <p class="popular__card__info">Монитор
+27", 2560x1440 180 Гц</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Razer_viper_v3.png " alt="">
+              <h4 class="popular__card__title">Razer Viper V3 PRO</h4>
+              <p class="popular__card__info">Игровая мышь
+беспроводная 54г</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Mchouse_v9_pro.png " alt="">
+              <h4 class="popular__card__title">Mchouse V9 PRO</h4>
+              <p class="popular__card__info">беспроводные наушники до 250 ч</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Dualsense.png " alt="">
+              <h4 class="popular__card__title">Sony DualSense</h4>
+              <p class="popular__card__info">Геймпад беспроводной до 10 ч
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/IO_keyboard.png" alt="">
+              <h4 class="popular__card__title">IO Type 68 Magnetic</h4>
+              <p class="popular__card__info">Клавиатура ㅤㅤмагнитная 65%</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img width="200" height="142" src="images/Fiero.png " alt="">
+              <h4 class="popular__card__title">Fiero BHS-200</h4>
+              <p class="popular__card__info">Колонки Bluetooth ㅤㅤ60 Вт</p>
+            </div>
+          </div>
         </div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
       </div>
-    </section>
+    </div>
   </section>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-  const swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 20,
+<section class="container">
 
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-</script>
+    <div class="companies">
+
+        <div class="swiper swiper__companies">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_1.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_2.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="90" src="images/Logos/image_3.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_4.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_5.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_6.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_7.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_8.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_9.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_10.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_11.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="70" src="images/Logos/image_12.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_13.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_14.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_15.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_16.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_17.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="70" src="images/Logos/image_18.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_19.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="companies_img"><img  width="160" src="images/Logos/image_20.png" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/swiper_popular.js"></script>
+  <script src="js/swiper_companies.js"></script>
 </body>
 
 </html>

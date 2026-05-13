@@ -84,7 +84,7 @@
     position: relative;
     margin: 0 auto;
     max-width: 1220px;
-margin-bottom: 25px;
+margin-bottom: 50px;
     h3{
         align-items: center;
         margin-bottom: 25px;
@@ -114,4 +114,74 @@ margin-bottom: 25px;
 .popular__card__info{
     color: white;
     font-size: 16px;
+}
+
+.swiper-button-prev{
+    width: 80px;
+    height: 80px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.btns__left{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+}
+.btns__right{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 94.4%;
+}
+.swiper-button-disabled{
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0.501);
+}
+
+.companies {
+    max-width: 1220px;
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.swiper__companies .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+.swiper__companies .swiper-slide {
+    width: auto !important;
+}
+
+.companies_img {
+    width: 220px;
+    height: 80px;
+    border-radius: 15px;
+    background: white;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.swiper__companies {
+    pointer-events: none;
 }
