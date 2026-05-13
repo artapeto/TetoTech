@@ -1,0 +1,117 @@
+.header{
+    font-size: 22px;
+    height: 90px;
+    background-color: #1A1A1A;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header__nav{
+    gap: 40px;
+    display: flex;
+    li{
+    cursor: pointer;
+}
+}
+.header__reg{
+    display: flex;
+    max-width: 270px;
+    width: 100%;
+    background-color: #DD3F6C;
+    border-radius: 20px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-active{
+    color: #DD3F6C;
+}
+
+.welcome{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 288px;
+    background-image: url(../images/ilust.svg);
+}
+
+.welcome__info{
+    max-width: 636px;
+    h2{
+        margin-top: 25px;
+        font-size: 40px;
+    }
+    p{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+}
+.welcome__btn{
+    background-color: #DD3F6C;
+    max-width: 210px;
+    width: 100%;
+    height: 48px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.stocks{
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: #DD3F6C;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    h3{margin: 25px 0px;}
+}
+
+.stocks__imgs{
+    gap: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.popular{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1220px;
+margin-bottom: 25px;
+    h3{
+        align-items: center;
+        margin-bottom: 25px;
+        color: #DD3F6C;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 40px;
+    }
+}
+
+.popular__card{
+    background-color: #313131;
+    width: 220px;
+    height: 242px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.popular__card__title{
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin: 10px 0px 5px 0px;
+    color: white;
+}
+.popular__card__info{
+    color: white;
+    font-size: 16px;
+}

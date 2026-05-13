@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TetoTech</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+  
+  <section class="container"> <!--Header-->
+    <header class="header">
+      <img width="270" height="70" class="header__logo" src="images/logo.svg" alt="">
+      <ul class="header__nav">
+        <li class="nav-active">Главная</li>
+        <li>Каталог</li>
+        <li>FAQ</li>
+        <li>О нас</li>
+      </ul>
+      <p class="header__reg">Регистрация</p>
+    </header>
+  </section>
+
+
+  <section class="container"> <!--Welcome-->
+    <main class="welcome">
+      <div class="welcome__info">
+        <h2>Добро пожаловать в TetoTech!</h2>
+        <p>Ваш лучший выбор компьютерной периферии. Игровые мыши, механические клавиатуры, качественные гарнитуры и
+          многое другое.
+          Исследуйте наш каталог.</p>
+      </div>
+      <p class="welcome__btn">В каталог</p>
+    </main>
+  </section>
+
+
+  <section class="container"> <!--Stocks-->
+    <section class="stocks">
+      <h3>Текущие акции</h3>
+      <div class="stocks__imgs">
+        <img width="440" height="350" src="images/stock_1.png" alt="">
+        <img width="440" height="350" src="images/stock_2.png" alt="">
+      </div>
+    </section>
+  </section>
+
+
+  <section class="container"> <!--Popular-->
+    <section class="popular">
+      <h3>Популярные товары</h3>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide"><div class="popular__card">
+              <img width="200" height="142" src="images/Aula_f75.png " alt="">
+              <h4 class="popular__card__title">AULA F75</h4>
+              <p class="popular__card__info">Клавиатура Механическая 75%</p>
+            </div>
+          </div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+
+        </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+      </div>
+    </section>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+  const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</body>
+
+</html>
