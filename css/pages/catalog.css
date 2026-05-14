@@ -1,6 +1,4 @@
-/* ============================================================
-   HEADER
-   ============================================================ */
+
 
 .header {
     font-size: 22px;
@@ -16,7 +14,6 @@
     height: 100%;
     padding: 0px 60px;
 }
-
 
 .header__nav {
     gap: 40px;
@@ -59,6 +56,7 @@
 .nav-active {
     color: #DD3F6C;
 }
+
 
 .burger {
     display: none;
@@ -261,17 +259,16 @@
     transform: translateY(0);
 }
 
-
-.catalog{
+.catalog {
     margin: 25px 60px;
 }
 
-.catalog__title{
+.catalog__title {
     color: #DD3F6C;
     font-size: 48px;
 }
 
-.catalog__cards{
+.catalog__cards {
     height: 1360px;
     max-width: 1320px;
     width: 100%;
@@ -281,29 +278,56 @@
     gap: 15px;
 }
 
-.catalog__card{
+.catalog__card {
+    position: relative;
+    overflow: hidden;
     width: 430px;
     height: 260px;
     border-radius: 25px;
     display: flex;
     padding: 0px 10px 20px 0px;
-    img{
+    cursor: pointer;
+    img {
         margin: 33px 0px 13px 0px;
     }
-    
 }
 
-.catalog__card_info{
+/* Псевдоэлемент берёт фон из inline-стиля карточки и плавно зумит его */
+.catalog__card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    border-radius: inherit;
+    transition: transform 0.45s ease;
+    z-index: 0;
+}
+
+.catalog__card:hover::before {
+    transform: scale(1.12);
+}
+
+/* Контент карточки должен быть поверх псевдоэлемента */
+.catalog__card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.catalog__card_info {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
     text-align: left;
     margin-left: 40px;
-    p{
+
+    p {
         font-size: 20px;
         color: white;
     }
-    h3{
+
+    h3 {
         font-size: 24px;
         color: white;
     }
@@ -383,10 +407,6 @@
     margin: 0 auto;
     padding-left: 0;
 }
-
-/* ============================================================
-   MEDIA QUERIES
-   ============================================================ */
 
 @media (max-width: 1280px) {
     .header__inner {
