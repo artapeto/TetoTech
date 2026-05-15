@@ -1,0 +1,222 @@
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 25px 60px 100px;
+}
+
+.reg__title {
+    color: #DD3F6C;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.reg__desc {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 25px;
+    max-width: 808px;
+}
+
+.reg__layout {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.reg__form-card {
+    background-color: #313131;
+    border-radius: 25px;
+    padding: 25px;
+    flex: 1;
+    max-width: 808px;
+}
+
+.reg__field {
+    margin-bottom: 20px;
+}
+
+.reg__label {
+    display: block;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+    pointer-events: none;
+}
+
+.reg__input {
+    width: 100%;
+    background-color: #252524;
+    border: 2px solid #363636;
+    border-radius: 10px;
+    padding: 12px 14px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.reg__input::placeholder {
+    color: #868684;
+    font-size: 20px;
+}
+
+.reg__input:focus {
+    border-color: #DD3F6C;
+}
+
+.reg__checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.reg__checkbox {
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    accent-color: #DD3F6C;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.reg__checkbox-label {
+    font-size: 20px;
+    color: #aaa;
+    line-height: 1.5;
+    pointer-events: none;
+}
+
+.reg__checkbox-label a {
+    color: #DD3F6C;
+    text-decoration: none;
+}
+
+.reg__checkbox-label a:hover {
+    text-decoration: underline;
+}
+
+.reg__submit {
+    width: 100%;
+    background-color: #DD3F6C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.reg__submit:hover {
+    background-color: #c4355d;
+}
+
+.reg__submit:active {
+    transform: scale(0.98);
+}
+
+.reg__login {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #888;
+}
+
+.reg__login a {
+    color: #DD3F6C;
+    text-decoration: none;
+}
+
+.reg__login a:hover {
+    text-decoration: underline;
+}
+
+/* ── SUCCESS MESSAGE ── */
+.reg__success {
+    display: none;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.reg__success.visible {
+    display: block;
+}
+
+.reg__success-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.reg__success-title {
+    color: #DD3F6C;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.reg__success-text {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* ── ADVANTAGES ── */
+.reg__advantages {
+    background-color: #313131;
+    border-radius: 25px;
+    padding: 30px 30px 70px 30px;
+    width: 362px;
+    flex-shrink: 0;
+}
+
+.reg__adv-title {
+    color: #DD3F6C;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.reg__adv-item {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.reg__adv-item:last-child {
+    margin-bottom: 0;
+}
+
+.reg__adv-icon {
+    width: 90px;
+    height: 90px;
+    background-color: #191918;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+}
+
+.reg__adv-icon svg {
+    width: 50px;
+    height: 50px;
+    stroke: #DD3F6C;
+    fill: none;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.reg__adv-name {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.reg__adv-desc {
+    font-size: 15px;
+    color: #ffffff;
+}

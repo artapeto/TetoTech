@@ -1,0 +1,47 @@
+ 
+    /* Divider */
+    .login__divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 20px 0;
+    }
+ 
+    .login__divider-line {
+      flex: 1;
+      height: 1px;
+      background: white;
+    }
+ 
+    .login__divider-text {
+      font-size: 13px;
+      color: white;
+      white-space: nowrap;
+    }
+ 
+    /* Social buttons */
+    .login__socials {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+ 
+    .login__social-btn {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      background: #2a2a2a;
+      border: 1px solid #3a3a3a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s;
+      font-size: 22px;
+    }
+ 
+    .login__social-btn:hover {
+      background: #333;
+      border-color: #DD3F6C;
+    }

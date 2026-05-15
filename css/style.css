@@ -6,4 +6,6 @@
 @import url(font.css);
 @import url(pages/catalog.css);
 @import url(pages/faq.css);
-@import url(pages/about.css)
+@import url(pages/about.css);
+@import url(pages/registration.css);
+@import url(pages/login.css);
