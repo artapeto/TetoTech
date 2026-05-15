@@ -1,0 +1,115 @@
+.about{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 25px;
+}
+
+.about__title{
+    margin: 25px 0px;
+    color: #DD3F6C;
+    font-size: 48px;
+}
+
+.about__subtitle{
+    font-size: 40px;
+    color: white;
+      margin-bottom: 25px;
+}
+
+.about__info{
+    font-size: 24px;
+      margin-bottom: 25px;
+    color: white;
+}
+
+.about__mision{
+    color: #DD3F6C;
+    font-size: 40px;
+      margin-bottom: 25px;
+}
+
+.about__submision{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.about__container{
+    max-width: 574px;
+    margin-left: 60px;
+}
+
+.advantages {
+    color: white;
+    height: 288px;
+    background-image: url(../../images/ilust.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages__list{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px;
+    text-align: center;
+    
+    h3{
+        margin: 10px 0px;
+        font-size: 24px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
+.advantages__card{
+    max-width: 283px;
+}
+
+.select{
+    text-align: center;
+}
+
+.select__title{
+    color: #DD3F6C;
+    font-size: 40px;
+}
+.select__subtitle{
+    color: white;
+    font-size: 24px;
+    max-width: 886px;
+    margin: 25px auto 0px;
+}
+.select__list{
+    display: flex;
+    justify-content: space-between;
+max-width: 1440px;
+margin: 0 auto;
+padding: 0px 60px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+
+.select__card{
+    max-width: 260px;
+    background-color: #1D1E1D;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    svg{
+        margin-top: 10px;
+    }
+}
+.select__card__title{
+    margin: 5px 0px 10px;
+    color: white;
+    font-size: 18px;
+}
+.select__card__subtitle{
+    color: white;
+    font-size: 14;
+}
